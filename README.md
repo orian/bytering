@@ -1,6 +1,8 @@
-#bytering
+# bytering
 
 Go implementation of cyclic slice for bytes, keeps last X bytes and forget the rest.
+
+## Example
 
     buf := NewByteRing(10)
     buf.Write([]byte("Tutaj"))
